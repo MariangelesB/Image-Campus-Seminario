@@ -1,0 +1,42 @@
+[gd_scene load_steps=11 format=3 uid="uid://cnph4lj1nrr2t"]
+
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_7cv8m"]
+[ext_resource type="Script" path="res://Scripts/FootstepsManager.gd" id="2_6w76c"]
+[ext_resource type="AudioStream" uid="uid://cvwuhfji3lruj" path="res://Assets/Audio/music_sfx/SFX_Footsteps_1.mp3" id="3_rirc4"]
+[ext_resource type="AudioStream" uid="uid://ntru3cy5rolx" path="res://Assets/Audio/music_sfx/SFX_Footsteps_2.mp3" id="4_0trf8"]
+[ext_resource type="AudioStream" uid="uid://70owgwpplps5" path="res://Assets/Audio/music_sfx/SFX_Footsteps_3.mp3" id="5_agbxn"]
+[ext_resource type="AudioStream" uid="uid://bh161kq7nnwuq" path="res://Assets/Audio/music_sfx/SFX_Footsteps_4.mp3" id="6_7e48u"]
+[ext_resource type="AudioStream" uid="uid://ci2qoe3qwkubr" path="res://Assets/Audio/music_sfx/SFX_Footsteps_5.mp3" id="7_c06kr"]
+[ext_resource type="Script" path="res://Scenes/footsteps_switches.gd" id="8_webq7"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_cqjsk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2e6k7"]
+size = Vector3(1, 2.09192, 1)
+
+[node name="Player" type="CharacterBody3D" groups=["Player"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.08369, 0)
+script = ExtResource("1_7cv8m")
+
+[node name="FootstepsManager" type="Node3D" parent="." node_paths=PackedStringArray("ground_position")]
+script = ExtResource("2_6w76c")
+footsteps_sfx = Array[AudioStreamMP3]([ExtResource("3_rirc4"), ExtResource("4_0trf8"), ExtResource("5_agbxn"), ExtResource("6_7e48u"), ExtResource("7_c06kr")])
+ground_position = NodePath("../GoundPosition")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_cqjsk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0130005, 0)
+shape = SubResource("BoxShape3D_2e6k7")
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.966268, -0.613865)
+
+[node name="Camera3D" type="Camera3D" parent="Head"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0060513)
+
+[node name="GoundPosition" type="Marker3D" parent="."]
+
+[node name="FootstepsSwitches" type="Node" parent="."]
+script = ExtResource("8_webq7")

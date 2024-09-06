@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5smn1s4suwuv"]
+
+[ext_resource type="Script" path="res://switches_areas.gd" id="1_h47jo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vanpp"]
+
+[node name="SwitchesAreas" type="Area3D"]
+script = ExtResource("1_h47jo")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_vanpp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

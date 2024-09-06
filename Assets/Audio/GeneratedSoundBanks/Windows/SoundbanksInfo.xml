@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../../IC - Projecto Wwise/ImageCampus</ProjectRoot>
+		<SourceFilesRoot>../../../../../IC - Projecto Wwise/ImageCampus/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../IC - Projecto Wwise/ImageCampus/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{622F3A98-9E21-6720-CB77-524FFB52AA68}">
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="7215423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\SFX_Footsteps_4.wav</ShortName>
+					<CachePath>SFX/Sfx/SFX_Footsteps_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="47396117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\Foostep_Gravel-003.wav</ShortName>
+					<CachePath>SFX/Sfx/Foostep_Gravel-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="123176026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\SFX_Footsteps_1.wav</ShortName>
+					<CachePath>SFX/Sfx/SFX_Footsteps_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="312499400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\Foostep_Gravel-002.wav</ShortName>
+					<CachePath>SFX/Sfx/Foostep_Gravel-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="379549082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\SFX_Footsteps_3.wav</ShortName>
+					<CachePath>SFX/Sfx/SFX_Footsteps_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="385563444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\Foostep_Gravel-001.wav</ShortName>
+					<CachePath>SFX/Sfx/Foostep_Gravel-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="514511057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Musica\IC_Musica_capaVertical.wav</ShortName>
+					<CachePath>SFX/Musica/IC_Musica_capaVertical_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="552564578" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\Foostep_Gravel-005.wav</ShortName>
+					<CachePath>SFX/Sfx/Foostep_Gravel-005_818F3B66.wem</CachePath>
+				</File>
+				<File Id="665137448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\SFX_Footsteps_5.wav</ShortName>
+					<CachePath>SFX/Sfx/SFX_Footsteps_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="679189213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Musica\IC_Musica.wav</ShortName>
+					<CachePath>SFX/Musica/IC_Musica_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="757501389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\SFX_Footsteps_2.wav</ShortName>
+					<CachePath>SFX/Sfx/SFX_Footsteps_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="986574895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\Foostep_Gravel-004.wav</ShortName>
+					<CachePath>SFX/Sfx/Foostep_Gravel-004_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="452779266" Name="BEEP 02" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="970241952" Name="CONFIRM 01" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="4136017490" Name="Play_CONFIRM">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="970241952"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1962302600" Name="Play_Hover">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="452779266"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4237703276" Name="Play_Musica">
+					<MediaRefs>
+						<MediaRef Id="514511057"/>
+						<MediaRef Id="679189213"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4031831520" Name="Play_Pasos">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3001233698" Id="1091555216"/>
+							<MediaRefs>
+								<MediaRef Id="47396117"/>
+								<MediaRef Id="312499400"/>
+								<MediaRef Id="385563444"/>
+								<MediaRef Id="552564578"/>
+								<MediaRef Id="986574895"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3001233698" Id="1091555219" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="7215423"/>
+								<MediaRef Id="123176026"/>
+								<MediaRef Id="379549082"/>
+								<MediaRef Id="665137448"/>
+								<MediaRef Id="757501389"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume"/>
+				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3001233698" Name="Superficie">
+					<Switches>
+						<Switch Id="1091555216" Name="Generico_02"/>
+						<Switch Id="1091555219" Name="Generico_01"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E2A2E86-CE95-8796-991A-31A945015EE5}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume"/>
+				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3001233698" Name="Superficie">
+					<Switches>
+						<Switch Id="1091555216" Name="Generico_02"/>
+						<Switch Id="1091555219" Name="Generico_01"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C6183CB2-E7C9-0540-DB15-EB913495495D}</FileHash>
+</SoundBanksInfo>
