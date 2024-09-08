@@ -2,16 +2,16 @@ class_name AK
 
 class EVENTS:
 
-	const PLAY_CONFIRM = 4136017490
-	const PLAY_HOVER = 1962302600
-	const PLAY_MUSICA = 4237703276
 	const PLAY_PASOS = 4031831520
+	const PLAY_CONFIRM = 4136017490
+	const PLAY_MUSICA = 4237703276
+	const PLAY_HOVER = 1962302600
 
 	const _dict = {
-		"Play_CONFIRM": PLAY_CONFIRM,
-		"Play_Hover": PLAY_HOVER,
+		"Play_Pasos": PLAY_PASOS,
+		"Play_Confirm": PLAY_CONFIRM,
 		"Play_Musica": PLAY_MUSICA,
-		"Play_Pasos": PLAY_PASOS
+		"Play_Hover": PLAY_HOVER
 	}
 
 class STATES:
@@ -24,29 +24,29 @@ class SWITCHES:
 		const GROUP = 3001233698
 
 		class SWITCH:
-			const GENERICO_02 = 1091555216
 			const GENERICO_01 = 1091555219
+			const GENERICO_02 = 1091555216
 
 	const _dict = {
 		"Superficie": {
 			"GROUP": 3001233698,
 			"SWITCH": {
-				"Generico_02": 1091555216,
-				"Generico_01": 1091555219
+				"Generico_01": 1091555219,
+				"Generico_02": 1091555216
 			}
 		}
 	}
 
 class GAME_PARAMETERS:
 
-	const DISTANCIA_HAMBURGUESA = 2185633902
 	const SX_VOLUME = 3075796249
 	const MX_VOLUME = 1441253587
+	const DISTANCIA_HAMBURGUESA = 2185633902
 
 	const _dict = {
-		"Distancia_Hamburguesa": DISTANCIA_HAMBURGUESA,
 		"SX_Volume": SX_VOLUME,
-		"MX_Volume": MX_VOLUME
+		"MX_Volume": MX_VOLUME,
+		"Distancia_Hamburguesa": DISTANCIA_HAMBURGUESA
 	}
 
 class TRIGGERS:
@@ -81,12 +81,12 @@ class AUX_BUSSES:
 
 class AUDIO_DEVICES:
 
-	const SYSTEM = 3859886410
 	const NO_OUTPUT = 2317455096
+	const SYSTEM = 3859886410
 
 	const _dict = {
-		"System": SYSTEM,
-		"No_Output": NO_OUTPUT
+		"No_Output": NO_OUTPUT,
+		"System": SYSTEM
 	}
 
 class EXTERNAL_SOURCES:

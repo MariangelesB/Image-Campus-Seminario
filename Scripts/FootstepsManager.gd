@@ -6,7 +6,8 @@ extends Node3D
 
 
 func _ready():
-	player.step.connect(play_sound)
+	#player.step.connect(play_sound)
+	pass
 
 
 

@@ -1,7 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	311910498	Play_Click			\SX\Play_Click	
+	1680200567	Play_Comer_Hamburguesa			\SX\Play_Comer_Hamburguesa	
 	1962302600	Play_Hover			\SX\Play_Hover	
 	4031831520	Play_Pasos			\SX\Play_Pasos	
-	4136017490	Play_CONFIRM			\SX\Play_CONFIRM	
 	4237703276	Play_Musica			\MX\Play_Musica	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -13,28 +14,28 @@ Switch	ID	Name	Switch Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	129	MIDI note velocity			\MIDI note velocity	
-	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
 	2185633902	Distancia_Hamburguesa			\Default Work Unit\Distancia_Hamburguesa	
 
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	95362169	Modulator Envelope (Custom)				
-	773663610	Modulator Envelope (Custom)				
+	92811197	Modulator Envelope (Custom)				
+	185772603	Modulator Envelope (Custom)				
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	452779266	BEEP 02	Wwise Synth One		\Actor-Mixer Hierarchy\Factory Synth One\UI Sounds\BEEP 02\BEEP 02	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
-	970241952	CONFIRM 01	Wwise Synth One		\Actor-Mixer Hierarchy\Factory Synth One\UI Sounds\CONFIRM 01\CONFIRM 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
+	309125298	BEEP 02	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\UI\Hover\BEEP 02	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
+	460354871	CONFIRM 01	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\UI\Confirm\CONFIRM 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	7215423	SFX_Footsteps_4	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_01\SFX_Footsteps_4		50972
-	47396117	Foostep_Gravel-003	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_02\Foostep_Gravel-003		101580
-	123176026	SFX_Footsteps_1	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_01\SFX_Footsteps_1		50972
-	312499400	Foostep_Gravel-002	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_02\Foostep_Gravel-002		96928
-	379549082	SFX_Footsteps_3	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_01\SFX_Footsteps_3		46364
-	385563444	Foostep_Gravel-001	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_02\Foostep_Gravel-001		130432
+	7215423	SFX_Footsteps_4	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_4		50972
+	47396117	Foostep_Gravel-003	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-003		101580
+	123176026	SFX_Footsteps_1	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_1		50972
+	312499400	Foostep_Gravel-002	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-002		96928
+	364328695	Comer_Hamburguesa	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Eat_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Comer_Hamburguesa		147740
+	379549082	SFX_Footsteps_3	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_3		46364
+	385563444	Foostep_Gravel-001	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-001		130432
 	514511057	Capa_Remezcla_Musica	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\IC_Musica_capaVertical_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musica\Segmento_Musical\Capa_Remezcla_Musica		7697552
-	552564578	Foostep_Gravel-005	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_02\Foostep_Gravel-005		122392
-	665137448	SFX_Footsteps_5	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_01\SFX_Footsteps_5		50972
+	552564578	Foostep_Gravel-005	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-005		122392
+	665137448	SFX_Footsteps_5	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_5		50972
 	679189213	Pista_De_Música	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\IC_Musica_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musica\Segmento_Musical\Pista_De_Música		7697552
-	757501389	SFX_Footsteps_2	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_01\SFX_Footsteps_2		55580
-	986574895	Foostep_Gravel-004	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Generico_02\Foostep_Gravel-004		99908
+	757501389	SFX_Footsteps_2	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_2		55580
+	986574895	Foostep_Gravel-004	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-004		99908
 

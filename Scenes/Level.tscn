@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://dnd27822rukq6" path="res://Scenes/Burger.tscn" id="4_y0gr2"]
 [ext_resource type="Environment" uid="uid://b17hygy62mcvq" path="res://Resources/new_environment.tres" id="5_6eoct"]
 [ext_resource type="AudioStream" uid="uid://dx4xqwdqrig74" path="res://Assets/Audio/music_sfx/Inept-70s-Crooks_Looping.mp3" id="5_ix2ry"]
-[ext_resource type="PackedScene" uid="uid://b5smn1s4suwuv" path="res://switches_areas.tscn" id="6_ehaug"]
+[ext_resource type="PackedScene" uid="uid://b5smn1s4suwuv" path="res://Scenes/switches_areas.tscn" id="6_ehaug"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_cfkqx"]
 size = Vector3(28.012, 0.854126, 40)
@@ -121,7 +121,7 @@ mesh = SubResource("BoxMesh_npddl")
 surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
 
 [node name="Player" parent="." instance=ExtResource("2_u6ahk")]
-transform = Transform3D(-1, 0, 0.000174435, 0, 1, 0, -0.000174435, 0, -1, 26.3949, 1.98059, 0.0684433)
+transform = Transform3D(-1, 0, 0.000174435, 0, 1, 0, -0.000174435, 0, -1, 9.55641, 1.98059, 0.0684433)
 
 [node name="Burger" parent="." instance=ExtResource("4_y0gr2")]
 transform = Transform3D(-0.0177665, 0, 0.999842, 0, 1, 0, -0.999842, 0, -0.0177665, 0.950555, 2.16909, 7.04255)
@@ -133,21 +133,21 @@ environment = ExtResource("5_6eoct")
 stream = ExtResource("5_ix2ry")
 volume_db = -17.334
 
-[node name="Menu" type="Control" parent="."]
+[node name="Ventana Ganar" type="Control" parent="."]
 visible = false
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Panel" type="Panel" parent="Menu"]
+[node name="Panel" type="Panel" parent="Ventana Ganar"]
 layout_mode = 0
 offset_left = 483.0
 offset_top = 182.0
 offset_right = 661.0
 offset_bottom = 385.0
 
-[node name="Label" type="Label" parent="Menu/Panel"]
+[node name="Label" type="Label" parent="Ventana Ganar/Panel"]
 layout_mode = 0
 offset_left = 47.0
 offset_top = 83.0

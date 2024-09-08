@@ -2,11 +2,11 @@
 <PlatformInfo>
 	<Platform Name="Windows" BasePlatform="Windows" Generator="2023.1.1.8417"/>
 	<RootPaths>
-		<ProjectRoot>../../../../../IC - Projecto Wwise/ImageCampus</ProjectRoot>
-		<SourceFilesRoot>../../../../../IC - Projecto Wwise/ImageCampus/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../IC - Projecto Wwise/ImageCampus</ProjectRoot>
+		<SourceFilesRoot>../../../../../../IC - Projecto Wwise/ImageCampus/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../IC - Projecto Wwise/ImageCampus/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../IC - Projecto Wwise/ImageCampus/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{703944E9-F963-9989-9051-FE09C045507E}</FileHash>
+	<FileHash>{C918A7FE-21BB-2E8C-3E72-309EA27D0DFC}</FileHash>
 </PlatformInfo>

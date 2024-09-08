@@ -19,11 +19,11 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="MusicVolume" type="Label" parent="Panel/Settings"]
+[node name="Music Volume" type="Label" parent="Panel/Settings"]
 layout_mode = 2
 text = "Music Volume"
 
-[node name="Music Volume" type="HSlider" parent="Panel/Settings"]
+[node name="Music_Volume" type="HSlider" parent="Panel/Settings"]
 layout_mode = 2
 value = 100.0
 
@@ -31,7 +31,7 @@ value = 100.0
 layout_mode = 2
 text = "SFX Volume"
 
-[node name="SFX Volume2" type="HSlider" parent="Panel/Settings"]
+[node name="SFX_Volume" type="HSlider" parent="Panel/Settings"]
 layout_mode = 2
 value = 100.0
 
@@ -62,7 +62,8 @@ layout_mode = 2
 text = "Settings
 "
 
-[connection signal="value_changed" from="Panel/Settings/Music Volume" to="." method="_on_music_volume_value_changed"]
+[connection signal="value_changed" from="Panel/Settings/Music_Volume" to="." method="_on_music_volume_value_changed"]
+[connection signal="value_changed" from="Panel/Settings/SFX_Volume" to="." method="_on_sfx_volume_value_changed"]
 [connection signal="mouse_entered" from="Panel/Settings/Back" to="." method="_on_back_mouse_entered"]
 [connection signal="pressed" from="Panel/Settings/Back" to="." method="_on_back_pressed"]
 [connection signal="mouse_entered" from="Panel/Main/Play" to="." method="_on_play_mouse_entered"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bptvehe76jvx6"
+path="res://.godot/imported/Image Campus_Musica by Felipe Goizueta.mp3-192d065c9d4b813b7faf83c7a70e937e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/music_sfx/Image Campus_Musica by Felipe Goizueta.mp3"
+dest_files=["res://.godot/imported/Image Campus_Musica by Felipe Goizueta.mp3-192d065c9d4b813b7faf83c7a70e937e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

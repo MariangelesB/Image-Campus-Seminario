@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>../../../../../IC - Projecto Wwise/ImageCampus</ProjectRoot>
-		<SourceFilesRoot>../../../../../IC - Projecto Wwise/ImageCampus/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../IC - Projecto Wwise/ImageCampus</ProjectRoot>
+		<SourceFilesRoot>../../../../../../IC - Projecto Wwise/ImageCampus/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../IC - Projecto Wwise/ImageCampus/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../IC - Projecto Wwise/ImageCampus/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{622F3A98-9E21-6720-CB77-524FFB52AA68}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{68D994C5-0E3C-2261-4709-F8CE384C743F}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -28,6 +28,10 @@
 				<File Id="312499400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\Foostep_Gravel-002.wav</ShortName>
 					<CachePath>SFX/Sfx/Foostep_Gravel-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="364328695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sfx\SFX_Eat_1.wav</ShortName>
+					<CachePath>SFX/Sfx/SFX_Eat_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="379549082" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\SFX_Footsteps_3.wav</ShortName>
@@ -64,22 +68,27 @@
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="452779266" Name="BEEP 02" LibName="Wwise Synth One" LibId="9699330"/>
-					<Plugin Id="970241952" Name="CONFIRM 01" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="309125298" Name="BEEP 02" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="460354871" Name="CONFIRM 01" LibName="Wwise Synth One" LibId="9699330"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="4136017490" Name="Play_CONFIRM">
+				<Event Id="311910498" Name="Play_Click">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="970241952"/>
+							<PluginRef Id="460354871"/>
 						</Custom>
 					</PluginRefs>
+				</Event>
+				<Event Id="1680200567" Name="Play_Comer_Hamburguesa">
+					<MediaRefs>
+						<MediaRef Id="364328695"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1962302600" Name="Play_Hover">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="452779266"/>
+							<PluginRef Id="309125298"/>
 						</Custom>
 					</PluginRefs>
 				</Event>
@@ -115,7 +124,6 @@
 				</Event>
 			</Events>
 			<GameParameters>
-				<GameParameter Id="1006694123" Name="Music_Volume"/>
 				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -127,7 +135,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E2A2E86-CE95-8796-991A-31A945015EE5}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D9453B46-ED4A-5358-DB60-625D644805D6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -137,11 +145,14 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="Sfx"/>
+				<Bus Id="1730564739" Name="Musica"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="1006694123" Name="Music_Volume"/>
+				<GameParameter Id="1441253587" Name="MX_Volume"/>
 				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
+				<GameParameter Id="3075796249" Name="SX_Volume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3001233698" Name="Superficie">
@@ -153,5 +164,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C6183CB2-E7C9-0540-DB15-EB913495495D}</FileHash>
+	<FileHash>{2E427CF4-2D84-B198-9C04-6DF2047ED472}</FileHash>
 </SoundBanksInfo>
