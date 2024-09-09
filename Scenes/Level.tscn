@@ -124,7 +124,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
 transform = Transform3D(-1, 0, 0.000174435, 0, 1, 0, -0.000174435, 0, -1, 9.55641, 1.98059, 0.0684433)
 
 [node name="Burger" parent="." instance=ExtResource("4_y0gr2")]
-transform = Transform3D(-0.0177665, 0, 0.999842, 0, 1, 0, -0.999842, 0, -0.0177665, 0.950555, 3.1204, 7.04255)
+transform = Transform3D(-0.0177665, 0, 0.999842, 0, 1, 0, -0.999842, 0, -0.0177665, 0.950555, 2.16909, 7.04255)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("5_6eoct")

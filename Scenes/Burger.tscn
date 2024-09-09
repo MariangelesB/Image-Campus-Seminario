@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dnd27822rukq6"]
+[gd_scene load_steps=6 format=3 uid="uid://dnd27822rukq6"]
 
 [ext_resource type="Script" path="res://Scripts/Burger.gd" id="1_rstxf"]
 [ext_resource type="ArrayMesh" uid="uid://d0uyqlsbosat4" path="res://Assets/Models/burger.res" id="2_kp8q0"]
+[ext_resource type="AudioStream" uid="uid://bcbuaf74ndss3" path="res://Assets/Audio/music_sfx/SFX_Eat_1.mp3" id="2_rb664"]
 [ext_resource type="AudioStream" uid="uid://3wwb0aretml7" path="res://Assets/Audio/music_sfx/SFX_Eat_2.mp3" id="3_fgnua"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_jcdoq"]
@@ -10,6 +11,7 @@ radius = 0.476746
 
 [node name="Burger" type="Area3D"]
 script = ExtResource("1_rstxf")
+eat_sfx = Array[AudioStreamMP3]([ExtResource("2_rb664"), ExtResource("3_fgnua")])
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, -3.48787e-16, 3.48787e-16, 3.48787e-16, 1, -3.48787e-16, -3.48787e-16, 3.48787e-16, 1, -5.33462e-06, -0.0876708, 0)
@@ -18,9 +20,5 @@ shape = SubResource("CylinderShape3D_jcdoq")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, -3.48787e-16, 3.48787e-16, 3.48787e-16, 1, -3.48787e-16, -3.48787e-16, 3.48787e-16, 1, 2.08165e-12, -0.5, 2.08165e-12)
 mesh = ExtResource("2_kp8q0")
-
-[node name="EatSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_fgnua")
-volume_db = -5.977
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
