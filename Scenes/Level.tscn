@@ -157,18 +157,18 @@ text = "GANASTE!"
 
 [node name="SwitchAreas" type="Node" parent="."]
 
-[node name="Dirt" parent="SwitchAreas" instance=ExtResource("6_ehaug")]
+[node name="Gravel" parent="SwitchAreas" instance=ExtResource("6_ehaug")]
 
-[node name="CollisionShape3D" parent="SwitchAreas/Dirt" index="0"]
+[node name="CollisionShape3D" parent="SwitchAreas/Gravel" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0334625, 3.14524, 0.00732422)
 shape = SubResource("BoxShape3D_5xlrv")
 
-[node name="Grass" parent="SwitchAreas" instance=ExtResource("6_ehaug")]
+[node name="Dirt" parent="SwitchAreas" instance=ExtResource("6_ehaug")]
 ground_type = 1
 
-[node name="CollisionShape3D" parent="SwitchAreas/Grass" index="0"]
+[node name="CollisionShape3D" parent="SwitchAreas/Dirt" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.0384, 3.08742, 0.0234909)
 shape = SubResource("BoxShape3D_shbov")
 
+[editable path="SwitchAreas/Gravel"]
 [editable path="SwitchAreas/Dirt"]
-[editable path="SwitchAreas/Grass"]
