@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{68D994C5-0E3C-2261-4709-F8CE384C743F}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{201FDEAD-C9B6-6486-289E-FFDDA95B09CC}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -25,9 +25,25 @@
 					<ShortName>Sfx\SFX_Footsteps_1.wav</ShortName>
 					<CachePath>SFX/Sfx/SFX_Footsteps_1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="154743840" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Musica\Ganar\pitido bajada y subidas.wav</ShortName>
+					<Path>Media/154743840.wem</Path>
+					<CachePath>SFX/Musica/Ganar/pitido bajada y subidas_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
+				</File>
+				<File Id="191605579" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Musica\Ganar\Base Bajo - picantes.wav</ShortName>
+					<Path>Media/191605579.wem</Path>
+					<CachePath>SFX/Musica/Ganar/Base Bajo - picantes_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
+				</File>
 				<File Id="312499400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\Foostep_Gravel-002.wav</ShortName>
 					<CachePath>SFX/Sfx/Foostep_Gravel-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="313236541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Musica\Ganar\Vocal graves.wav</ShortName>
+					<CachePath>SFX/Musica/Ganar/Vocal graves_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="364328695" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\SFX_Eat_1.wav</ShortName>
@@ -41,9 +57,27 @@
 					<ShortName>Sfx\Foostep_Gravel-001.wav</ShortName>
 					<CachePath>SFX/Sfx/Foostep_Gravel-001_818F3B66.wem</CachePath>
 				</File>
+				<File Id="409902512" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Musica\Ganar\Hits glitchs.wav</ShortName>
+					<Path>Media/409902512.wem</Path>
+					<CachePath>SFX/Musica/Ganar/Hits glitchs_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
+				</File>
+				<File Id="513664222" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Musica\Ganar\pitidos.wav</ShortName>
+					<Path>Media/513664222.wem</Path>
+					<CachePath>SFX/Musica/Ganar/pitidos_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
+				</File>
 				<File Id="514511057" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musica\IC_Musica_capaVertical.wav</ShortName>
 					<CachePath>SFX/Musica/IC_Musica_capaVertical_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="517477815" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Musica\Ganar\Crashs.wav</ShortName>
+					<Path>Media/517477815.wem</Path>
+					<CachePath>SFX/Musica/Ganar/Crashs_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
 				</File>
 				<File Id="552564578" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\Foostep_Gravel-005.wav</ShortName>
@@ -61,9 +95,23 @@
 					<ShortName>Sfx\SFX_Footsteps_2.wav</ShortName>
 					<CachePath>SFX/Sfx/SFX_Footsteps_2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="928620195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Musica\Ganar\Vocal agudas.wav</ShortName>
+					<CachePath>SFX/Musica/Ganar/Vocal agudas_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="935303637" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Musica\Ganar\Base Bajo - suaves.wav</ShortName>
+					<Path>Media/935303637.wem</Path>
+					<CachePath>SFX/Musica/Ganar/Base Bajo - suaves_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
+				</File>
 				<File Id="986574895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\Foostep_Gravel-004.wav</ShortName>
 					<CachePath>SFX/Sfx/Foostep_Gravel-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1012664127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Musica\Ganar\Voces glitchs.wav</ShortName>
+					<CachePath>SFX/Musica/Ganar/Voces glitchs_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -71,6 +119,9 @@
 					<Plugin Id="309125298" Name="BEEP 02" LibName="Wwise Synth One" LibId="9699330"/>
 					<Plugin Id="460354871" Name="CONFIRM 01" LibName="Wwise Synth One" LibId="9699330"/>
 				</Custom>
+				<ShareSets>
+					<Plugin Id="1140379499" Name="Stretch_Tipo_Piso" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</ShareSets>
 			</Plugins>
 			<Events>
 				<Event Id="311910498" Name="Play_Click">
@@ -85,6 +136,16 @@
 						<MediaRef Id="364328695"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1884797811" Name="Play_Estado_Gameplay">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3685021506" Id="89505537" Name="Gameplay"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3200380486" Name="Play_Estado_Ganar">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3685021506" Id="3575068712" Name="Ganar"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1962302600" Name="Play_Hover">
 					<PluginRefs>
 						<Custom>
@@ -94,14 +155,57 @@
 				</Event>
 				<Event Id="4237703276" Name="Play_Musica">
 					<MediaRefs>
+						<MediaRef Id="154743840"/>
 						<MediaRef Id="514511057"/>
-						<MediaRef Id="679189213"/>
+						<MediaRef Id="517477815"/>
+						<MediaRef Id="928620195"/>
+						<MediaRef Id="1012664127"/>
 					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3685021506" Id="2607556080"/>
+							<MediaRefs>
+								<MediaRef Id="191605579"/>
+								<MediaRef Id="409902512"/>
+								<MediaRef Id="517477815"/>
+								<MediaRef Id="935303637"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3685021506" Id="3575068712"/>
+							<MediaRefs>
+								<MediaRef Id="154743840"/>
+								<MediaRef Id="191605579"/>
+								<MediaRef Id="313236541"/>
+								<MediaRef Id="409902512"/>
+								<MediaRef Id="513664222"/>
+								<MediaRef Id="517477815"/>
+								<MediaRef Id="928620195"/>
+								<MediaRef Id="935303637"/>
+								<MediaRef Id="1012664127"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3685021506" Id="89505537"/>
+							<MediaRefs>
+								<MediaRef Id="514511057"/>
+								<MediaRef Id="679189213"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="1140379499"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3685021506" Id="2607556080" Name="Menu"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="4031831520" Name="Play_Pasos">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3001233698" Id="1091555216"/>
+							<SwitchValue GroupType="Switch" GroupId="3001233698" Id="2565746006"/>
 							<MediaRefs>
 								<MediaRef Id="47396117"/>
 								<MediaRef Id="312499400"/>
@@ -111,7 +215,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3001233698" Id="1091555219" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="3001233698" Id="1137103080" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="7215423"/>
 								<MediaRef Id="123176026"/>
@@ -122,20 +226,41 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="656393096" Name="Play_Switch_Superficie_Cemento">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="3001233698" Id="1137103080" Name="Cemento"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4121056118" Name="Play_Switch_Superficie_Tierra">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="3001233698" Id="2565746006" Name="Tierra"/>
+					</ActionSetSwitch>
+				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
+				<GameParameter Id="2448709148" Name="Cantidad_Timestretch"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3685021506" Name="Estado_Del_Juego">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2607556080" Name="Menu"/>
+						<State Id="3575068712" Name="Ganar"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3001233698" Name="Superficie">
 					<Switches>
-						<Switch Id="1091555216" Name="Generico_02"/>
-						<Switch Id="1091555219" Name="Generico_01"/>
+						<Switch Id="1137103080" Name="Cemento"/>
+						<Switch Id="2565746006" Name="Tierra"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D9453B46-ED4A-5358-DB60-625D644805D6}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{42A8BDC5-B9D7-582D-321E-80F77858ED10}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -152,17 +277,28 @@
 			<GameParameters>
 				<GameParameter Id="1441253587" Name="MX_Volume"/>
 				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
+				<GameParameter Id="2448709148" Name="Cantidad_Timestretch"/>
 				<GameParameter Id="3075796249" Name="SX_Volume"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3685021506" Name="Estado_Del_Juego">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2607556080" Name="Menu"/>
+						<State Id="3575068712" Name="Ganar"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3001233698" Name="Superficie">
 					<Switches>
-						<Switch Id="1091555216" Name="Generico_02"/>
-						<Switch Id="1091555219" Name="Generico_01"/>
+						<Switch Id="1137103080" Name="Cemento"/>
+						<Switch Id="2565746006" Name="Tierra"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2E427CF4-2D84-B198-9C04-6DF2047ED472}</FileHash>
+	<FileHash>{9160DBB3-340D-3766-7BC6-3A2A2DC3198B}</FileHash>
 </SoundBanksInfo>

@@ -12,9 +12,9 @@ func _on_body_entered(body : Node3D):
 		match ground_type:
 	# Setear Switch si está en Tierra
 			GroundType.DIRT:	
-				Wwise.set_switch("Superficie","Generico_01", AudioManager)
+				Wwise.post_event("Play_Switch_Superficie_Cemento", AudioManager)
 				print("Entered Dirt Ground Area")
 	# Setear Switch si está en Pasto
 			GroundType.GRASS:
-				Wwise.set_switch("Superficie","Generico_02", AudioManager)
+				Wwise.post_event("Play_Switch_Superficie_Tierra", AudioManager)
 				print("Entered Grass Ground Area")

@@ -121,10 +121,10 @@ mesh = SubResource("BoxMesh_npddl")
 surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
 
 [node name="Player" parent="." instance=ExtResource("2_u6ahk")]
-transform = Transform3D(-1, 0, 0.000174435, 0, 1, 0, -0.000174435, 0, -1, 9.55641, 1.98059, 0.0684433)
+transform = Transform3D(-1, 0, 0.000174435, 0, 1, 0, -0.000174435, 0, -1, 37.4096, 1.98059, -9.43431)
 
 [node name="Burger" parent="." instance=ExtResource("4_y0gr2")]
-transform = Transform3D(-0.0177665, 0, 0.999842, 0, 1, 0, -0.999842, 0, -0.0177665, 0.950555, 2.16909, 7.04255)
+transform = Transform3D(-0.0177665, 0, 0.999842, 0, 1, 0, -0.999842, 0, -0.0177665, -11.8321, 2.16909, -7.32261)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("5_6eoct")

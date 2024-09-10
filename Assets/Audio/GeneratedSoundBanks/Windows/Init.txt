@@ -1,6 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3685021506	Estado_Del_Juego			\Default Work Unit\Estado_Del_Juego	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	Estado_Del_Juego			
+	748895195	None	Estado_Del_Juego			
+	2607556080	Menu	Estado_Del_Juego			
+	3575068712	Ganar	Estado_Del_Juego			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1441253587	MX_Volume			\Default Work Unit\MX_Volume	
-	3075796249	SX_Volume			\Default Work Unit\SX_Volume	
+	1441253587	MX_Volume			\Default Work Unit\MX\MX_Volume	
+	3075796249	SX_Volume			\Default Work Unit\SX\SX_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	Sfx			\Default Work Unit\Master Audio Bus\Sfx	

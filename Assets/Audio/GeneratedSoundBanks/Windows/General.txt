@@ -1,41 +1,75 @@
 Event	ID	Name			Wwise Object Path	Notes
 	311910498	Play_Click			\SX\Play_Click	
+	656393096	Play_Switch_Superficie_Cemento			\MX\Play_Switch_Superficie_Cemento	
 	1680200567	Play_Comer_Hamburguesa			\SX\Play_Comer_Hamburguesa	
+	1884797811	Play_Estado_Gameplay			\MX\Play_Estado_Gameplay	
 	1962302600	Play_Hover			\SX\Play_Hover	
+	3200380486	Play_Estado_Ganar			\MX\Play_Estado_Ganar	
 	4031831520	Play_Pasos			\SX\Play_Pasos	
+	4121056118	Play_Switch_Superficie_Tierra			\MX\Play_Switch_Superficie_Tierra	
 	4237703276	Play_Musica			\MX\Play_Musica	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3001233698	Superficie			\Default Work Unit\Superficie	
 
 Switch	ID	Name	Switch Group			Notes
-	1091555216	Generico_02	Superficie			
-	1091555219	Generico_01	Superficie			
+	1137103080	Cemento	Superficie			
+	2565746006	Tierra	Superficie			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3685021506	Estado_Del_Juego			\Default Work Unit\Estado_Del_Juego	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	Estado_Del_Juego			
+	748895195	None	Estado_Del_Juego			
+	2607556080	Menu	Estado_Del_Juego			
+	3575068712	Ganar	Estado_Del_Juego			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	129	MIDI note velocity			\MIDI note velocity	
-	2185633902	Distancia_Hamburguesa			\Default Work Unit\Distancia_Hamburguesa	
+	2185633902	Distancia_Hamburguesa			\Default Work Unit\MX\Distancia_Hamburguesa	
+	2448709148	Cantidad_Timestretch			\Default Work Unit\MX\Cantidad_Timestretch	
 
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	92811197	Modulator Envelope (Custom)				
 	185772603	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	1140379499	Stretch_Tipo_Piso	Wwise Time Stretch			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	309125298	BEEP 02	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\UI\Hover\BEEP 02	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
 	460354871	CONFIRM 01	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\UI\Confirm\CONFIRM 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	7215423	SFX_Footsteps_4	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_4		50972
-	47396117	Foostep_Gravel-003	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-003		101580
-	123176026	SFX_Footsteps_1	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_1		50972
-	312499400	Foostep_Gravel-002	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-002		96928
+	7215423	SFX_Footsteps_4	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Gravel\SFX_Footsteps_4		50972
+	47396117	Foostep_Gravel-003	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Dirt\Foostep_Gravel-003		101580
+	123176026	SFX_Footsteps_1	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Gravel\SFX_Footsteps_1		50972
+	154743840	pitido bajada y subidas	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\pitido bajada y subidas_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Menu_Hacia_Gameplay\pitido bajada y subidas		35376
+	191605579	Base Bajo - picantes	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Base Bajo - picantes_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Menu\Segmento_Menu\Base Bajo - picantes		35376
+	312499400	Foostep_Gravel-002	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Dirt\Foostep_Gravel-002		96928
+	313236541	Vocal graves	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Vocal graves_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Ganar\Segmento_Ganar\Vocal graves		3848824
 	364328695	Comer_Hamburguesa	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Eat_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Comer_Hamburguesa		147740
-	379549082	SFX_Footsteps_3	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_3		46364
-	385563444	Foostep_Gravel-001	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-001		130432
-	514511057	Capa_Remezcla_Musica	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\IC_Musica_capaVertical_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musica\Segmento_Musical\Capa_Remezcla_Musica		7697552
-	552564578	Foostep_Gravel-005	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-005		122392
-	665137448	SFX_Footsteps_5	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_5		50972
-	679189213	Pista_De_Música	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\IC_Musica_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musica\Segmento_Musical\Pista_De_Música		7697552
-	757501389	SFX_Footsteps_2	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_01\SFX_Footsteps_2		55580
-	986574895	Foostep_Gravel-004	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Generico_02\Foostep_Gravel-004		99908
+	379549082	SFX_Footsteps_3	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Gravel\SFX_Footsteps_3		46364
+	385563444	Foostep_Gravel-001	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Dirt\Foostep_Gravel-001		130432
+	409902512	Hits glitchs	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Hits glitchs_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Menu\Segmento_Menu\Hits glitchs		35376
+	513664222	pitidos	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\pitidos_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Ganar\Segmento_Ganar\pitidos		35376
+	514511057	Capa_Remezcla_Musica	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\IC_Musica_capaVertical_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Menu_Hacia_Gameplay\Capa_Remezcla_Musica		7697552
+	517477815	Crashs	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Crashs_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Menu_Hacia_Gameplay\Crashs		35376
+	552564578	Foostep_Gravel-005	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Dirt\Foostep_Gravel-005		122392
+	665137448	SFX_Footsteps_5	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Gravel\SFX_Footsteps_5		50972
+	679189213	Pista_De_Música	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\IC_Musica_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Gameplay\Segmento_Gameplay\Pista_De_Música		7697552
+	757501389	SFX_Footsteps_2	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\SFX_Footsteps_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Gravel\SFX_Footsteps_2		55580
+	928620195	Vocal agudas	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Vocal agudas_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Gameplay_Hacia_Ganar\Vocal agudas		3848824
+	935303637	Base Bajo - suaves	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Base Bajo - suaves_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Menu\Segmento_Menu\Base Bajo - suaves		35376
+	986574895	Foostep_Gravel-004	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Sfx\Foostep_Gravel-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sfx\Pasos\Dirt\Foostep_Gravel-004		99908
+	1012664127	Voces glitchs	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Voces glitchs_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Gameplay_Hacia_Ganar\Voces glitchs		3848824
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	154743840	pitido bajada y subidas	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\pitido bajada y subidas_FBC78EF0.wem	154743840.wem	\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Menu_Hacia_Gameplay\pitido bajada y subidas	
+	191605579	Base Bajo - picantes	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Base Bajo - picantes_FBC78EF0.wem	191605579.wem	\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Menu\Segmento_Menu\Base Bajo - picantes	
+	409902512	Hits glitchs	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Hits glitchs_FBC78EF0.wem	409902512.wem	\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Menu\Segmento_Menu\Hits glitchs	
+	513664222	pitidos	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\pitidos_FBC78EF0.wem	513664222.wem	\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Ganar\Segmento_Ganar\pitidos	
+	517477815	Crashs	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Crashs_FBC78EF0.wem	517477815.wem	\Interactive Music Hierarchy\Default Work Unit\Música\Transiciones\Transición_Desde_Menu_Hacia_Gameplay\Crashs	
+	935303637	Base Bajo - suaves	G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\.cache\Windows\SFX\Musica\Ganar\Base Bajo - suaves_FBC78EF0.wem	935303637.wem	\Interactive Music Hierarchy\Default Work Unit\Música\Playlist_Menu\Segmento_Menu\Base Bajo - suaves	
 

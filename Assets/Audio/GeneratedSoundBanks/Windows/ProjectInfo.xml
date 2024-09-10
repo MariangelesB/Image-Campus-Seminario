@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="ImageCampus" GUID="{875645CD-6A57-40EA-93BE-412DEDCDFCCD}" Generator="2023.1.1.8417"/>
+	<CacheRoot>../../../../../../IC - Projecto Wwise/ImageCampus/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{59ED80CB-BB13-4832-9A85-508F7DE220F7}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="."/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{BEB31238-89A9-4B17-B7DB-891585E12180}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{E4C78B6B-4FC0-C23B-38B1-42E99D3107EA}</FileHash>
+</ProjectInfo>

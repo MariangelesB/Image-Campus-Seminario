@@ -24,7 +24,8 @@ func _on_settings_pressed() -> void:
 # Click en "Jugar"
 func _on_play_pressed() -> void:
 	get_tree().change_scene_to_file("res://Scenes/Level.tscn")
-
+	Wwise.post_event("Play_Estado_Gameplay", AudioManager)
+	
 # Pasar arriba de "Jugar"
 func _on_settings_mouse_entered() -> void:
 	Wwise.post_event("Play_Hover", AudioManager)
