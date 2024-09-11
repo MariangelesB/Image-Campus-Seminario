@@ -17,7 +17,7 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 #Footsteps variables:
 var can_play : bool = true
-#signal step
+signal step
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -68,5 +68,6 @@ func _headbob(time) -> Vector3:
 	#check if the head position has reached a low point so we turn off can_play
 	if pos.y < -low_pos and can_play:
 		can_play = false
+		emit_signal("step")
 		Wwise.post_event("Play_Pasos", AudioManager)
 	return pos

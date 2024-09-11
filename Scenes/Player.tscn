@@ -17,10 +17,10 @@ size = Vector3(1, 2.09192, 1)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.08369, 0)
 script = ExtResource("1_7cv8m")
 
-[node name="FootstepsManager" type="Node3D" parent="." node_paths=PackedStringArray("ground_position")]
+[node name="FootstepsManager" type="Node3D" parent="." node_paths=PackedStringArray("posicion_piso")]
 script = ExtResource("2_6w76c")
 footsteps_sfx = Array[AudioStreamMP3]([ExtResource("3_rirc4"), ExtResource("4_0trf8"), ExtResource("5_agbxn"), ExtResource("6_7e48u"), ExtResource("7_c06kr")])
-ground_position = NodePath("../GoundPosition")
+posicion_piso = NodePath("../PosicionPiso")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_cqjsk")
@@ -35,4 +35,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.966268, -0.613865)
 [node name="Camera3D" type="Camera3D" parent="Head"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0060513)
 
-[node name="GoundPosition" type="Marker3D" parent="."]
+[node name="PosicionPiso" type="Marker3D" parent="."]
