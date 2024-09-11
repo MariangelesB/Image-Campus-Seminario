@@ -86,12 +86,15 @@ shadow_opacity = 0.7
 
 [node name="Caja" parent="Cajas" instance=ExtResource("1_3e4hk")]
 transform = Transform3D(0.668288, -0.486342, 0.562906, 0.673077, 0.717551, -0.179131, -0.316795, 0.49859, 0.806876, 0, 3.61519, 0)
+metadata/_edit_group_ = true
 
 [node name="Caja4" parent="Cajas" instance=ExtResource("1_3e4hk")]
 transform = Transform3D(0.285539, -0.0286996, 0.957937, 0.673077, 0.717551, -0.179131, -0.682228, 0.695914, 0.224206, -5.0308, 8.95687, 3.65566)
+metadata/_edit_group_ = true
 
 [node name="Caja2" type="RigidBody3D" parent="Cajas"]
 transform = Transform3D(0.0741518, -0.447665, 0.891121, 0.382989, 0.83784, 0.38903, -0.920772, 0.312442, 0.233578, 0, 8.97108, -10.5819)
+metadata/_edit_group_ = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja2"]
 shape = SubResource("BoxShape3D_o0uon")
@@ -103,12 +106,125 @@ surface_material_override/0 = SubResource("StandardMaterial3D_2o116")
 
 [node name="Caja3" type="RigidBody3D" parent="Cajas"]
 transform = Transform3D(-0.414317, -0.560265, 0.717248, -0.229104, 0.826895, 0.513571, -0.880825, 0.0484564, -0.470955, 6.97863, 8.0952, 1.80954)
+metadata/_edit_group_ = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja3"]
 transform = Transform3D(1, 2.00031e-08, 3.55485e-08, 1.6546e-08, 1, -6.60463e-09, -3.43643e-08, -6.72246e-09, 1, 0, 0, 0)
 shape = SubResource("BoxShape3D_o0uon")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja3"]
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
+
+[node name="Caja5" parent="Cajas" instance=ExtResource("1_3e4hk")]
+transform = Transform3D(0.285539, -0.0286996, 0.957937, 0.673077, 0.717551, -0.179131, -0.682228, 0.695914, 0.224206, 22.8108, 8.95687, 3.65566)
+metadata/_edit_group_ = true
+
+[node name="Caja6" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(0.0741518, -0.447665, 0.891121, 0.382989, 0.83784, 0.38903, -0.920772, 0.312442, 0.233578, 27.0674, 8.97108, 0.930002)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja6"]
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja6"]
+transform = Transform3D(1, 1.70675e-08, -1.42066e-08, 7.14132e-09, 1, -1.92076e-08, -1.78771e-08, -2.54997e-08, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_2o116")
+
+[node name="Caja7" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(-0.414317, -0.560265, 0.717248, -0.229104, 0.826895, 0.513571, -0.880825, 0.0484564, -0.470955, 19.9602, 8.0952, -8.56985)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja7"]
+transform = Transform3D(1, 2.00031e-08, 3.55485e-08, 1.6546e-08, 1, -6.60463e-09, -3.43643e-08, -6.72246e-09, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja7"]
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
+
+[node name="Caja8" parent="Cajas" instance=ExtResource("1_3e4hk")]
+transform = Transform3D(0.724017, 0.685732, 0.0746337, 0.189222, -0.0933988, -0.977482, -0.663321, 0.721836, -0.197378, 22.8108, 8.77063, -4.32097)
+metadata/_edit_group_ = true
+
+[node name="Caja9" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(0.0741518, -0.447665, 0.891121, -0.0934759, 0.886527, 0.453136, -0.992857, -0.1169, 0.0238913, 14.5504, 8.97108, 4.04504)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja9"]
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja9"]
+transform = Transform3D(1, 1.70675e-08, -1.42066e-08, 7.14132e-09, 1, -1.92076e-08, -1.78771e-08, -2.54997e-08, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_2o116")
+
+[node name="Caja10" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(-0.136166, -0.978647, 0.153976, -0.453438, 0.199754, 0.868614, -0.880825, 0.0484564, -0.470955, 32.9962, 15.4826, -1.34952)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja10"]
+transform = Transform3D(1, 2.00031e-08, 3.55485e-08, 1.6546e-08, 1, -6.60463e-09, -3.43643e-08, -6.72246e-09, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja10"]
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
+
+[node name="Caja11" parent="Cajas" instance=ExtResource("1_3e4hk")]
+transform = Transform3D(0.981772, 0.0360792, 0.186605, 0.189222, -0.0933988, -0.977482, -0.0178381, 0.994975, -0.0985233, 30.2987, 11.6178, -8.29772)
+metadata/_edit_group_ = true
+
+[node name="Caja12" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(-0.0101937, 0.282614, 0.95918, -0.118879, 0.952084, -0.281786, -0.992857, -0.1169, 0.0238913, 14.5504, 8.97108, -7.12926)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja12"]
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja12"]
+transform = Transform3D(1, 1.70675e-08, -1.42066e-08, 7.14132e-09, 1, -1.92076e-08, -1.78771e-08, -2.54997e-08, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_2o116")
+
+[node name="Caja13" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(-0.136166, -0.978647, 0.153976, -0.453438, 0.199754, 0.868614, -0.880825, 0.0484564, -0.470955, 28.8474, 12.2899, 3.17759)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja13"]
+transform = Transform3D(1, 2.00031e-08, 3.55485e-08, 1.6546e-08, 1, -6.60463e-09, -3.43643e-08, -6.72246e-09, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja13"]
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
+
+[node name="Caja14" parent="Cajas" instance=ExtResource("1_3e4hk")]
+transform = Transform3D(0.981772, 0.0360792, 0.186605, 0.189222, -0.0933988, -0.977482, -0.0178381, 0.994975, -0.0985233, 34.364, 7.56461, 7.25741)
+metadata/_edit_group_ = true
+
+[node name="Caja15" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(-0.0101937, 0.282614, 0.95918, -0.118879, 0.952084, -0.281786, -0.992857, -0.1169, 0.0238913, -0.506397, 8.97108, 5.65951)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja15"]
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja15"]
+transform = Transform3D(1, 1.70675e-08, -1.42066e-08, 7.14132e-09, 1, -1.92076e-08, -1.78771e-08, -2.54997e-08, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_npddl")
+surface_material_override/0 = SubResource("StandardMaterial3D_2o116")
+
+[node name="Caja16" type="RigidBody3D" parent="Cajas"]
+transform = Transform3D(-0.46471, -0.278659, 0.840472, -0.0905088, 0.959167, 0.267967, -0.880825, 0.0484564, -0.470955, 15.8008, 13.2134, -3.02937)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cajas/Caja16"]
+transform = Transform3D(1, 2.00031e-08, 3.55485e-08, 1.6546e-08, 1, -6.60463e-09, -3.43643e-08, -6.72246e-09, 1, 0, 0, 0)
+shape = SubResource("BoxShape3D_o0uon")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Cajas/Caja16"]
 mesh = SubResource("BoxMesh_npddl")
 surface_material_override/0 = SubResource("StandardMaterial3D_s0w5u")
 
