@@ -8,8 +8,8 @@ State	ID	Name	State Group			Notes
 	3575068712	Ganar	Estado_Del_Juego			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1441253587	MX_Volume			\Default Work Unit\MX\MX_Volume	
-	3075796249	SX_Volume			\Default Work Unit\SX\SX_Volume	
+	249635911	MX_Volumen			\Default Work Unit\MX\MX_Volumen	
+	3014737461	SX_Volumen			\Default Work Unit\SX\SX_Volumen	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	Sfx			\Default Work Unit\Master Audio Bus\Sfx	

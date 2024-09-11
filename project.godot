@@ -24,6 +24,10 @@ AudioManager="*res://Scripts/AudioManager.gd"
 
 project/assembly_name="Godot Project - Image"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/Wwise/plugin.cfg")
+
 [input]
 
 forward={

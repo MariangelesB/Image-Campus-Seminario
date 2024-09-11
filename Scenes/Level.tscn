@@ -147,7 +147,7 @@ offset_top = 182.0
 offset_right = 661.0
 offset_bottom = 385.0
 
-[node name="Label" type="Label" parent="Ventana Ganar/Panel"]
+[node name="Leyenda" type="Label" parent="Ventana Ganar/Panel"]
 layout_mode = 0
 offset_left = 47.0
 offset_top = 83.0

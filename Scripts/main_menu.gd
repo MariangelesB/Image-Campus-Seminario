@@ -2,29 +2,28 @@ extends Node2D
 
 # ------------ RTPC Volúmenes ------------ 
 func _on_music_volume_value_changed(value: float) -> void:
-	Wwise.set_rtpc_value("MX_Volume", value, AudioManager)
+	Wwise.set_rtpc_value("MX_Volumen", value, AudioManager)
 
 func _on_sfx_volume_value_changed(value: float) -> void:
-	Wwise.set_rtpc_value("SX_Volume", value, AudioManager)
+	Wwise.set_rtpc_value("SX_Volumen", value, AudioManager)
 
 
 # ------------ Eventos Botones ------------ 
 # Click en "Volver"
 func _on_back_pressed() -> void:
-	$Panel/Main.show()
-	$Panel/Settings.hide()
+	$Panel/Principal.show()
+	$"Panel/Configuración".hide()
 	Wwise.post_event("Play_Click", AudioManager)
 
 # Click en "Configuración"
 func _on_settings_pressed() -> void:
-	$Panel/Main.hide()
-	$Panel/Settings.show()
+	$Panel/Principal.hide()
+	$"Panel/Configuración".show()
 	Wwise.post_event("Play_Click", AudioManager)
 
 # Click en "Jugar"
 func _on_play_pressed() -> void:
 	get_tree().change_scene_to_file("res://Scenes/Level.tscn")
-	Wwise.post_event("Play_Estado_Gameplay", AudioManager)
 	
 # Pasar arriba de "Jugar"
 func _on_settings_mouse_entered() -> void:

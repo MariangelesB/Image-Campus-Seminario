@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{86009A6E-3997-CA7A-A91A-934A1A614DCC}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{6A3C5C7B-509F-ED5D-EFBF-87C00D11D544}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -41,9 +41,11 @@
 					<ShortName>Sfx\Foostep_Gravel-002.wav</ShortName>
 					<CachePath>SFX/Sfx/Foostep_Gravel-002_818F3B66.wem</CachePath>
 				</File>
-				<File Id="313236541" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="313236541" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\Ganar\Vocal graves.wav</ShortName>
+					<Path>Media/313236541.wem</Path>
 					<CachePath>SFX/Musica/Ganar/Vocal graves_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
 				</File>
 				<File Id="364328695" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\SFX_Eat_1.wav</ShortName>
@@ -69,9 +71,11 @@
 					<CachePath>SFX/Musica/Ganar/pitidos_FBC78EF0.wem</CachePath>
 					<PrefetchSize>35376</PrefetchSize>
 				</File>
-				<File Id="514511057" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="514511057" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\IC_Musica_capaVertical.wav</ShortName>
+					<Path>Media/514511057.wem</Path>
 					<CachePath>SFX/Musica/IC_Musica_capaVertical_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
 				</File>
 				<File Id="517477815" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\Ganar\Crashs.wav</ShortName>
@@ -87,17 +91,21 @@
 					<ShortName>Sfx\SFX_Footsteps_5.wav</ShortName>
 					<CachePath>SFX/Sfx/SFX_Footsteps_5_818F3B66.wem</CachePath>
 				</File>
-				<File Id="679189213" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="679189213" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\IC_Musica.wav</ShortName>
+					<Path>Media/679189213.wem</Path>
 					<CachePath>SFX/Musica/IC_Musica_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
 				</File>
 				<File Id="757501389" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sfx\SFX_Footsteps_2.wav</ShortName>
 					<CachePath>SFX/Sfx/SFX_Footsteps_2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="928620195" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="928620195" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\Ganar\Vocal agudas.wav</ShortName>
+					<Path>Media/928620195.wem</Path>
 					<CachePath>SFX/Musica/Ganar/Vocal agudas_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
 				</File>
 				<File Id="935303637" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\Ganar\Base Bajo - suaves.wav</ShortName>
@@ -109,9 +117,11 @@
 					<ShortName>Sfx\Foostep_Gravel-004.wav</ShortName>
 					<CachePath>SFX/Sfx/Foostep_Gravel-004_818F3B66.wem</CachePath>
 				</File>
-				<File Id="1012664127" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="1012664127" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Musica\Ganar\Voces glitchs.wav</ShortName>
+					<Path>Media/1012664127.wem</Path>
 					<CachePath>SFX/Musica/Ganar/Voces glitchs_FBC78EF0.wem</CachePath>
+					<PrefetchSize>35376</PrefetchSize>
 				</File>
 			</Media>
 			<Plugins>
@@ -260,7 +270,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{42A8BDC5-B9D7-582D-321E-80F77858ED10}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5AADAB7F-BD97-A147-CD1E-AD53477CAA82}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -275,10 +285,10 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="1441253587" Name="MX_Volume"/>
+				<GameParameter Id="249635911" Name="MX_Volumen"/>
 				<GameParameter Id="2185633902" Name="Distancia_Hamburguesa"/>
 				<GameParameter Id="2448709148" Name="Cantidad_Timestretch"/>
-				<GameParameter Id="3075796249" Name="SX_Volume"/>
+				<GameParameter Id="3014737461" Name="SX_Volumen"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3685021506" Name="Estado_Del_Juego">
@@ -300,5 +310,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B267BD5A-C675-1819-4F2F-7DA59D8437CD}</FileHash>
+	<FileHash>{FE5633F0-3CB6-6217-5283-A598E6E1324A}</FileHash>
 </SoundBanksInfo>

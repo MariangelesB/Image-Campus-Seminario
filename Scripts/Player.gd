@@ -21,6 +21,7 @@ var can_play : bool = true
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	Wwise.post_event("Play_Estado_Gameplay", AudioManager)
 
 func _input(event):
 	if event is InputEventMouseMotion:

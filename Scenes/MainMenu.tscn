@@ -9,7 +9,7 @@ script = ExtResource("1_7unci")
 offset_right = 312.0
 offset_bottom = 382.0
 
-[node name="Settings" type="VBoxContainer" parent="Panel"]
+[node name="Configuración" type="VBoxContainer" parent="Panel"]
 visible = false
 layout_mode = 1
 anchors_preset = 15
@@ -19,28 +19,28 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="Music Volume" type="Label" parent="Panel/Settings"]
+[node name="Musica Volumen" type="Label" parent="Panel/Configuración"]
 layout_mode = 2
 text = "Music Volume"
 
-[node name="Music_Volume" type="HSlider" parent="Panel/Settings"]
+[node name="Musica_Volumen" type="HSlider" parent="Panel/Configuración"]
 layout_mode = 2
 value = 100.0
 
-[node name="SFX Volume" type="Label" parent="Panel/Settings"]
+[node name="SFX Volumen" type="Label" parent="Panel/Configuración"]
 layout_mode = 2
 text = "SFX Volume"
 
-[node name="SFX_Volume" type="HSlider" parent="Panel/Settings"]
+[node name="SFX_Volumen" type="HSlider" parent="Panel/Configuración"]
 layout_mode = 2
 value = 100.0
 
-[node name="Back" type="Button" parent="Panel/Settings"]
+[node name="Volver" type="Button" parent="Panel/Configuración"]
 layout_mode = 2
 text = "Back
 "
 
-[node name="Main" type="VBoxContainer" parent="Panel"]
+[node name="Principal" type="VBoxContainer" parent="Panel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -53,20 +53,20 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="Play" type="Button" parent="Panel/Main"]
+[node name="Jugar" type="Button" parent="Panel/Principal"]
 layout_mode = 2
 text = "Play"
 
-[node name="Settings" type="Button" parent="Panel/Main"]
+[node name="Configuración" type="Button" parent="Panel/Principal"]
 layout_mode = 2
 text = "Settings
 "
 
-[connection signal="value_changed" from="Panel/Settings/Music_Volume" to="." method="_on_music_volume_value_changed"]
-[connection signal="value_changed" from="Panel/Settings/SFX_Volume" to="." method="_on_sfx_volume_value_changed"]
-[connection signal="mouse_entered" from="Panel/Settings/Back" to="." method="_on_back_mouse_entered"]
-[connection signal="pressed" from="Panel/Settings/Back" to="." method="_on_back_pressed"]
-[connection signal="mouse_entered" from="Panel/Main/Play" to="." method="_on_play_mouse_entered"]
-[connection signal="pressed" from="Panel/Main/Play" to="." method="_on_play_pressed"]
-[connection signal="mouse_entered" from="Panel/Main/Settings" to="." method="_on_settings_mouse_entered"]
-[connection signal="pressed" from="Panel/Main/Settings" to="." method="_on_settings_pressed"]
+[connection signal="value_changed" from="Panel/Configuración/Musica_Volumen" to="." method="_on_music_volume_value_changed"]
+[connection signal="value_changed" from="Panel/Configuración/SFX_Volumen" to="." method="_on_sfx_volume_value_changed"]
+[connection signal="mouse_entered" from="Panel/Configuración/Volver" to="." method="_on_back_mouse_entered"]
+[connection signal="pressed" from="Panel/Configuración/Volver" to="." method="_on_back_pressed"]
+[connection signal="mouse_entered" from="Panel/Principal/Jugar" to="." method="_on_play_mouse_entered"]
+[connection signal="pressed" from="Panel/Principal/Jugar" to="." method="_on_play_pressed"]
+[connection signal="mouse_entered" from="Panel/Principal/Configuración" to="." method="_on_settings_mouse_entered"]
+[connection signal="pressed" from="Panel/Principal/Configuración" to="." method="_on_settings_pressed"]
