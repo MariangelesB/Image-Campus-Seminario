@@ -1,6 +1,6 @@
 extends Area3D
 
-const ROT_SPEED = 1 # grados que rota la moneda en cada frame
+const ROT_SPEED = 1 # grados que rota la hamburguesa en cada frame
 @onready var distancia = 30 # Distancia de la hamburguesa al jugador
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
