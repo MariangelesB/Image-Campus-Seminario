@@ -55,11 +55,11 @@ alignment = 1
 
 [node name="Jugar" type="Button" parent="Panel/Principal"]
 layout_mode = 2
-text = "Play"
+text = "Jugar"
 
 [node name="Configuración" type="Button" parent="Panel/Principal"]
 layout_mode = 2
-text = "Settings
+text = "Configuración
 "
 
 [connection signal="value_changed" from="Panel/Configuración/Musica_Volumen" to="." method="_on_music_volume_value_changed"]

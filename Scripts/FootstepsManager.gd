@@ -1,7 +1,7 @@
 extends Node3D
 
 @export var footsteps_sfx : Array[AudioStreamMP3]
-@export var ground_position : Marker3D
+@export var posicion_piso : Marker3D
 @onready var player : CharacterBody3D = get_parent()
 
 
@@ -16,8 +16,8 @@ func play_sound():
 	var random_index : int = randi_range (0,footsteps_sfx.size() -1)
 	audio_player.stream = footsteps_sfx[random_index]
 	audio_player.pitch_scale = randf_range (0.7,1.3)
-	audio_player.volume_db = -30
-	ground_position.add_child(audio_player)
+	audio_player.volume_db = -20
+	posicion_piso.add_child(audio_player)
 	audio_player.play()
 	audio_player.finished.connect(func destroy(): audio_player.queue_free())
 	
