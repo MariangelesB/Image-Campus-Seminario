@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8FD567C-D19D-44F3-9182-9EF7DBA3940A}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D8FD567C-D19D-44F3-9182-9EF7DBA3940A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Superficie" ID="{0942BFFE-69ED-40BC-898A-DF0BF7F6B645}">
+					<ChildrenList>
+						<Switch Name="Cemento" ID="{F3741693-5397-4405-935A-80753FE3C779}"/>
+						<Switch Name="Tierra" ID="{68D70C3E-795B-4241-BC77-C18C48CDB403}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

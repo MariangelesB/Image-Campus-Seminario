@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C36B7D6-0007-4E4F-BE34-2C2ED745CC35}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="MX" ID="{9C36B7D6-0007-4E4F-BE34-2C2ED745CC35}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Musica" ID="{4CEBFA8A-F822-4A17-8388-D06E5ABF8D7F}">
+					<ChildrenList>
+						<Action Name="" ID="{C08AC112-E345-4695-925B-19EFA3B534F2}" ShortID="889788515">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{42A51D72-BC6D-49A3-B95E-57EEC7C93100}" WorkUnitID="{248F202F-D93F-4983-B1EA-72FE252718B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7EDF8164-DD40-40C8-B151-6B284658E9EC}" ShortID="761811936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Música" ID="{52B4D757-C7C5-48E9-9008-CC651660019C}" WorkUnitID="{BA28A717-8D5B-4D65-8A58-AA796849FB43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Switch_Superficie_Tierra" ID="{E8AF33F0-7E2C-4BAA-AB1D-8E5F2BA06809}">
+					<ChildrenList>
+						<Action Name="" ID="{D56A1B18-B534-416B-91DD-48E419F66266}" ShortID="230192464">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tierra" ID="{68D70C3E-795B-4241-BC77-C18C48CDB403}" WorkUnitID="{D8FD567C-D19D-44F3-9182-9EF7DBA3940A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DA0D732D-B96A-4EEE-8CB1-7CC11EA0C2AA}" ShortID="573275623">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cantidad_Timestretch" ID="{5FCE0A78-7BF7-4A41-B591-3E3789C2389D}" WorkUnitID="{3325EBBC-92A5-402E-A0C8-62255B43C591}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Switch_Superficie_Cemento" ID="{4352F450-7B66-4609-A5EC-187602732EFC}">
+					<ChildrenList>
+						<Action Name="" ID="{8ED640D2-6983-4BAC-BE3A-8BA40BCC810F}" ShortID="148055658">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cemento" ID="{F3741693-5397-4405-935A-80753FE3C779}" WorkUnitID="{D8FD567C-D19D-44F3-9182-9EF7DBA3940A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D263DBBD-3ACC-4263-9D81-FB2D8DF8ED45}" ShortID="187660383">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cantidad_Timestretch" ID="{5FCE0A78-7BF7-4A41-B591-3E3789C2389D}" WorkUnitID="{3325EBBC-92A5-402E-A0C8-62255B43C591}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Estado_Ganar" ID="{4FD8BDBC-8D14-4DEB-B4A5-471511E91563}">
+					<ChildrenList>
+						<Action Name="" ID="{18FC6EE7-EB1C-4B27-B761-8DB6704AD215}" ShortID="23390296">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ganar" ID="{B87803C9-31D2-4093-9563-159E8B1F0FFE}" WorkUnitID="{248F202F-D93F-4983-B1EA-72FE252718B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Estado_Gameplay" ID="{D99DACEE-0888-40DB-919F-913B97246E4F}">
+					<ChildrenList>
+						<Action Name="" ID="{2D963653-6623-430F-A123-456E878A1F0A}" ShortID="602165279">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay" ID="{6235D3D2-49FC-4B4F-A6F0-F781D820332A}" WorkUnitID="{248F202F-D93F-4983-B1EA-72FE252718B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{698BC379-6A2B-4BCB-A640-C0F77E591814}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="SX" ID="{698BC379-6A2B-4BCB-A640-C0F77E591814}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="16"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Click" ID="{D3D3BE4F-8F13-4222-9247-03615DE35000}">
+					<ChildrenList>
+						<Action Name="" ID="{782C4CBF-AE9C-42BF-93C2-7DBE158770FF}" ShortID="302358761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Click" ID="{9B36C41C-9023-4D87-9927-B0FD8C10D692}" WorkUnitID="{347F567F-536D-467F-82D3-B4F7E2738912}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hover" ID="{9E6A7224-1EFD-42DC-81CC-6E3BAA624875}">
+					<ChildrenList>
+						<Action Name="" ID="{2EE72A34-B154-4DAF-9DFE-024ADEFC2C14}" ShortID="338215495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hover" ID="{E6E79971-4DA0-459F-9F57-ABC548118399}" WorkUnitID="{347F567F-536D-467F-82D3-B4F7E2738912}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pasos" ID="{E1892F79-1B68-4F6F-B2FF-77C04A02E39C}">
+					<ChildrenList>
+						<Action Name="" ID="{20D34BEF-ACD2-473E-8A2E-4878F7C6777C}" ShortID="612405819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasos" ID="{59703C2C-1AF5-465E-B4F5-086681189A09}" WorkUnitID="{347F567F-536D-467F-82D3-B4F7E2738912}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Comer_Hamburguesa" ID="{AA1CDF24-B717-46F9-8BEE-62ADC9DFABA4}">
+					<ChildrenList>
+						<Action Name="" ID="{F3F6617E-0AB2-4A6F-BFDD-93AA3C7F6E6C}" ShortID="265417894">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Comer_Hamburguesa" ID="{E9CC643E-AE6E-4C10-B8A5-1E654CE814A2}" WorkUnitID="{347F567F-536D-467F-82D3-B4F7E2738912}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

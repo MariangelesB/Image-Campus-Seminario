@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F771103-9081-4A0F-BDEC-C493CAADDB62}" SchemaVersion="119" RootDocumentID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}" ParentDocumentID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}">
+	<GameParameters>
+		<WorkUnit Name="SX" ID="{6F771103-9081-4A0F-BDEC-C493CAADDB62}" OwnerID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="SX_Volumen" ID="{D6A3E884-9A6C-49BF-BE6E-CA98FC1B171F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

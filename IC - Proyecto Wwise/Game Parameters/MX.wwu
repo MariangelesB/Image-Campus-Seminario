@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3325EBBC-92A5-402E-A0C8-62255B43C591}" SchemaVersion="119" RootDocumentID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}" ParentDocumentID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}">
+	<GameParameters>
+		<WorkUnit Name="MX" ID="{3325EBBC-92A5-402E-A0C8-62255B43C591}" OwnerID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="Cantidad_Timestretch" ID="{5FCE0A78-7BF7-4A41-B591-3E3789C2389D}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="3"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MX_Volumen" ID="{501B787A-CB09-4952-A0B4-5F9EDF4C033B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distancia_Hamburguesa" ID="{1DF85448-7B1C-44A2-94E9-388556AF4DC7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="30"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

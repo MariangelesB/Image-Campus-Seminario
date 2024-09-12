@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{9A978F1F-1FD1-4090-BD76-51BC44D92352}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="MX" ID="{3325EBBC-92A5-402E-A0C8-62255B43C591}" PersistMode="Reference"/>
+				<WorkUnit Name="SX" ID="{6F771103-9081-4A0F-BDEC-C493CAADDB62}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

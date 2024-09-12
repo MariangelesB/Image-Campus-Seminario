@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5436A84D-15FE-40C3-9481-1C0CFF19B376}" SchemaVersion="119">
+	<Effects>
+		<WorkUnit Name="MX" ID="{5436A84D-15FE-40C3-9481-1C0CFF19B376}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Fx_Stretch" ID="{6E5516D5-4DB1-4AF1-B746-657FB0F2C6D8}" ShortID="730152765">
+					<ChildrenList>
+						<Effect Name="Stretch_Tipo_Piso" ID="{00C36678-8510-45DE-9EA6-5D13DC32938E}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+							<PropertyList>
+								<Property Name="WindowSize" Type="int32" Value="8192"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{24CAE1FA-0AAB-4AA3-A1B7-35FF518DA0A7}" ShortID="90758238">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Cantidad_Timestretch" ID="{5FCE0A78-7BF7-4A41-B591-3E3789C2389D}" WorkUnitID="{3325EBBC-92A5-402E-A0C8-62255B43C591}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{1668B81B-3A9A-441C-B1C7-71713CC1D5AE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0.05</XPos>
+																		<YPos>100</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>1600</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Effect>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
