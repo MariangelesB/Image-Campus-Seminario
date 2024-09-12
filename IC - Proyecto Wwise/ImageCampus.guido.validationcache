@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="119">
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Virtual Acoustics\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Triggers\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Switches\Default Work Unit.wwu" DateLow="1725940014" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\States\Default Work Unit.wwu" DateLow="1725938942" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\SoundBanks\Default Work Unit.wwu" DateLow="1725458024" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Queries\Factory Queries.wwu" DateLow="1720629735" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Queries\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Presets\Factory Spatial Audio.wwu" DateLow="1720629735" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Presets\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Modulators\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Mixing Sessions\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Metadata\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1726012799" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1726085526" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\ImageCampus.wproj" DateLow="1726009756" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Game Parameters\SX.wwu" DateLow="1726012799" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Game Parameters\MX.wwu" DateLow="1726013107" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Game Parameters\Default Work Unit.wwu" DateLow="1725939654" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Events\SX.wwu" DateLow="1726085508" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Events\MX.wwu" DateLow="1726085508" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Events\Default Work Unit.wwu" DateLow="1725815073" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Effects\MX.wwu" DateLow="1725940550" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Effects\Factory Effects.wwu" DateLow="1725552513" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Effects\Default Work Unit.wwu" DateLow="1725939207" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1720629735" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Conversion Settings\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Control Surface Sessions\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Audio Devices\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Attenuations\Default Work Unit.wwu" DateLow="1725413785" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1725457780" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Godot\Image Campus\IC - Projecto Wwise\ImageCampus\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1725984168" DateHigh="0"/>
+</ValidationCache>
